@@ -244,6 +244,8 @@
   font-size: 100px;
   margin-bottom: 24px;
   color: #fff;
+  top: 0;
+  left: 0;
   z-index: 1;
 }
 
@@ -265,6 +267,8 @@
   background: -webkit-linear-gradient(to right, #9114ff, #da22ff);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #8f06ff, #da22ff);
   background-size: 100%;
+  top: 0;
+  left: 0;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
