@@ -204,6 +204,7 @@
       z-index:10;
       object-fit:cover;
       font-family:'object-fit: cover';
+      transition: 0.5s;
 }
 
 
@@ -213,7 +214,7 @@
       position:absolute;
       top:0;
       left:0;
-      z-index:20
+      z-index:20;
       background:url('../texture.png');
 }
 
