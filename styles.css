@@ -201,7 +201,7 @@
       position:absolute;
       top:0;
       left:0;
-      z-index:5;
+      z-index:10;
       object-fit:cover;
       font-family:'object-fit: cover';
 }
@@ -213,7 +213,7 @@
       position:absolute;
       top:0;
       left:0;
-      z-index:15;
+      z-index:20
       background:url('../texture.png');
 }
 
