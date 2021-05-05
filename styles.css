@@ -205,6 +205,7 @@
       object-fit:cover;
       font-family:'object-fit: cover';
       transition: 0.5s;
+      opacity: 0.8;
 }
 
 
