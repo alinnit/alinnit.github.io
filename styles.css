@@ -237,7 +237,7 @@
 }
 
 .hero__heading {
-  position: absolute;
+  position: relative;
   font-size: 100px;
   margin-bottom: 24px;
   color: #fff;
@@ -258,7 +258,7 @@
 }
 
 .hero__description {
-  position: absolute;
+  position: relative;
   font-size: 60px;
   background: #da22ff;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #9114ff, #da22ff);  /* Chrome 10-25, Safari 5.1-6 */
