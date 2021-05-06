@@ -408,9 +408,8 @@
 
 .main__img--card {
   margin: 10px;
-  width: 292px;
-  max-width: 100%;
-  height: auto;
+  width: 425px;
+  height: 425px;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
@@ -443,7 +442,6 @@
   }
 
   .main__img--card {
-    width: 292px;
     max-width: 100%;
     height: auto;
   }
