@@ -190,44 +190,51 @@
 
 /* Hero Section */
 
-.hero {
-  background: #000000;
-  background: linear-gradient(to right, #161616, #000000);
-  padding: 200px 0;
+#home {
+            height:100vh;
+            width:100%;
+            background:red;
+            display:flex;
+            align-items:center;
+            justify-content: center;
 }
 
-.hero__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  height: 90%;
-  text-align: center;
-  padding: 30px;
+
+
+#home::after {
+      width:100%;
+      height:100%;
+      content: '';
+      position:absolute;
+      z-index:10;
+      top:0;
+      left:0;
+      background:rgba(0,0,0,0.5)
 }
 
-#home .video {
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      object-fit: cover;
-      transition: 0.5s;
-      opacity: 0.8;
+
+#home video {
+      width:100%;
+      height:100%;
+      position:absolute;
+      top:0;
+      left:0;
+      z-index:5;
+      object-fit:cover;
+      font-family:'object-fit: cover';
 }
 
 
 #home .texture {
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background: url('../texture.png');
+      width:100%;
+      height:100%;
+      position:absolute;
+      top:0;
+      left:0;
+      z-index:15;
+      background:url('../texture.png');
 }
+
 
 .hero__heading {
   font-size: 100px;
