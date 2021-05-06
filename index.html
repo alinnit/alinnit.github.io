@@ -50,7 +50,14 @@
         <!--<button class="main__btn"><a href="#">Get in touch</a></button>-->
       </div>
     </div>
-
+    <script>
+    var vid = document.getElementById("vid");
+    vid.addEventListener("timeupdate", function () {
+        if(this.currentTime >= 5.0) {
+            this.currentTime = 0.0;
+        }
+    });
+    </script>
     <!-- Projects Section -->
     <div class="skills" id="skills">
       <h1>My Skills</h1>
