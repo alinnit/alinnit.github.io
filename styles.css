@@ -418,11 +418,6 @@
   background-image: url("profile.jpg");
 }
 
-.fa-layer-group, 
-.fa-users {
-  font-size: 14rem;
-}
-
 #card-2 {
   background: #ff512f;
   background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
@@ -447,10 +442,9 @@
   }
 
   .main__img--card {
-    height: 425px;
-    width: 425px;
-    max-width: 100%;
-    Height: auto;
+    width: 100%;
+    max-width: 425px;
+    height: auto;
   }
 
   .main__content {
