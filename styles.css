@@ -672,7 +672,7 @@ background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, F
   max-width: 1000px;
   width: 100%;
 }
-
+*/
 .social__media--wrap {
   display: flex;
   justify-content: space-between;
@@ -688,7 +688,7 @@ background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, F
   align-items: center;
   width: 240px;
 }
-*/
+
 .website__rights {
   color: #fff;
 }
