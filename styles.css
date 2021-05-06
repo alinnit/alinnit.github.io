@@ -202,41 +202,44 @@
 
 
 .hero__container::after {
-      width:100%;
-      height:100%;
+      width: 100%;
+      height: 100%;
       content: '';
-      position:absolute;
-      z-index:10;
-      top:0;
-      left:0;
-      background:rgba(0,0,0,0.5)
+      position: absolute;
+      z-index: 10;
+      top: 0;
+      left: 0;
+      background: rgba(0,0,0,0.5)
 }
 
 
 .hero__container video {
-      width:100%;
-      height:100%;
-      position:absolute;
-      top:0;
-      left:0;
-      z-index:5;
-      object-fit:cover;
-      font-family:'object-fit: cover';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5;
+      object-fit: cover;
+      font-family: 'object-fit: cover';
 }
 
 
 .hero__container.texture {
-      width:100%;
-      height:100%;
-      position:absolute;
-      top:0;
-      left:0;
-      z-index:15;
-      background:url('../texture.png');
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 15;
+      background: url('../texture.png');
 }
 
 
 .hero__heading {
+  position: relative;
+  z-index: 20;
+  text-align: center;
   font-size: 100px;
   margin-bottom: 24px;
   color: #fff;
