@@ -39,29 +39,27 @@
     <div class="hero" id="home">
       <div class="hero__container">
         <div class="texture"></div>
-        <video id="player" src="video.mp4" loop
-          muted
-          autoplay
-          preload="true">
-            Your browser does not support the video tag.
-        </video>
+       <video src="video0.mp4" id="player0"   style="background:black"></video>
+        <video src="video1.mp4" id="player1"  style="background:black;display:none"></video>
+        <video src="video2.mp4" id="player2"  style="background:black;display:none"></video>
         <script>
-        var player = document.getElementById('player')
-        var playlist = [
-          "video.mp4",
-          "video.mp4",
-          "video.mp4",
-        ]
-        var activeVideo = 0
-        player.src = playlist[activeVideo]
+        var nextVideo = 1
+        var currentPlayer = document.getElementById('player0')
+        var nextPlayer = document.getElementById('player' + nextVideo)
 
-        player.addEventListener('ended', function(e) {
-          // update the new active video index
-          activeVideo = (++activeVideo) % playlist.length
-          player.src = playlist[activeVideo]
-          player.play()
-        })
-        </script>   
+        var onEnded = function () {
+          currentPlayer.style.display = 'none'
+          nextPlayer.style.display = 'block'
+          nextPlayer.play()
+          currentPlayer = nextPlayer
+          nextVideo = (++nextVideo) % 3
+          nextPlayer = document.getElementById('player' + nextVideo)
+        }
+
+        for (var i = 0; i < 3; ++i) {
+            document.getElementById('player' + i).addEventListener('ended', onEnded)
+        }
+        </script>
         <h1 class="hero__heading">When the final result is <span>undefined</span></h1>
         <p class="hero__description">You get to choose who delivers it</p>
         <!--<button class="main__btn"><a href="#">Get in touch</a></button>-->
