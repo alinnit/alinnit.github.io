@@ -474,8 +474,9 @@
 
 @media screen and (max-width: 480px) {
   .main__img--card{
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
   }
   
   .fa-users, .fa-layer-group {
