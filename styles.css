@@ -449,6 +449,8 @@
   .main__img--card {
     height: 425px;
     width: 425px;
+    max-width: 100%;
+    Height: auto;
   }
 
   .main__content {
