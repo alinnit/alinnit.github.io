@@ -191,11 +191,11 @@
 /* Hero Section */
 
 .hero__container {
-            height:100vh;
-            width:100%;
-            background:red;
-            display:flex;
-            align-items:center;
+            height: 100vh;
+            width: 100%;
+            background: black;
+            display: flex;
+            align-items: center;
             justify-content: center;
 }
 
