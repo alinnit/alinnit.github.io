@@ -14,8 +14,8 @@ menu.addEventListener('click', mobileMenu)
 const highlightMenu = () => {
     const elem = document.querySelector('.highlight')
     const homeMenu = document.querySelector('#home-page')
-    const aboutMenu = document.querySelector('#about-page')
     const skillsMenu = document.querySelector('#skills-page')
+    const aboutMenu = document.querySelector('#about-page')
     let scrollPos = window.scrollY
     console.log(scrollPos)
 
@@ -26,14 +26,14 @@ const highlightMenu = () => {
         return
         }   
         else if (window.innerWidth > 960 && scrollPos < 1400){
-        aboutMenu.classList.add('highlight')
+        skillsMenu.classList.add('highlight')
         homeMenu.classList.remove('highlight')
-        skillsMenu.classList.remove('highlight')
+        aboutMenu.classList.remove('highlight')
         return
         }
         else if (window.innerWidth > 960 && scrollPos < 2345){
-        skillsMenu.classList.add('highlight')
-        aboutMenu.classList.remove('highlight')
+        aboutMenu.classList.add('highlight')
+        skillsMenu.classList.remove('highlight')
         return
         }   
 
