@@ -225,6 +225,7 @@
       z-index: 5;
       object-fit: cover;
       font-family: 'object-fit: cover';
+      transition: 0s;
 }
 
 
