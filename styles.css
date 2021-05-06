@@ -208,7 +208,7 @@
   padding: 30px;
 }
 
-#hero video {
+#home .video {
       width: 100%;
       height: 100%;
       position: absolute;
@@ -220,7 +220,7 @@
 }
 
 
-#hero .texture {
+#home .texture {
       width: 100%;
       height: 100%;
       position: absolute;
