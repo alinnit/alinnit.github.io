@@ -241,6 +241,7 @@
 
 .hero__heading {
   position: relative;
+  max-width: 768px;
   z-index: 20;
   text-align: center;
   font-size: 100px;
