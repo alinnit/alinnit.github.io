@@ -408,8 +408,8 @@
 
 .main__img--card {
   margin: 10px;
-  width: 425px;
-  height: 425px;
+  width: 584px;
+  height: 584px;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
@@ -468,8 +468,8 @@
 
 @media screen and (max-width: 480px) {
   .main__img--card{
-    width: 250px;
-    height: 250px;
+    max-width: 100%;
+    height: auto;
   }
   
   .fa-users, .fa-layer-group {
