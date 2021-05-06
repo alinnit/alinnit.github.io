@@ -39,25 +39,35 @@
     <div class="hero" id="home">
       <div class="hero__container">
         <div class="texture"></div>
-        <video src="video.mp4" loop
+        <video id="player" src="video.mp4" loop
           muted
           autoplay
           preload="true">
             Your browser does not support the video tag.
         </video>
+        <script>
+        var player = document.getElementById('player')
+        var playlist = [
+          "video.mp4",
+          "video.mp4",
+          "video.mp4",
+        ]
+        var activeVideo = 0
+        player.src = playlist[activeVideo]
+
+        player.addEventListener('ended', function(e) {
+          // update the new active video index
+          activeVideo = (++activeVideo) % playlist.length
+          player.src = playlist[activeVideo]
+          player.play()
+        })
+        </script>   
         <h1 class="hero__heading">When the final result is <span>undefined</span></h1>
         <p class="hero__description">You get to choose who delivers it</p>
         <!--<button class="main__btn"><a href="#">Get in touch</a></button>-->
       </div>
     </div>
-    <script>
-    var vid = document.getElementById("vid");
-    vid.addEventListener("timeupdate", function () {
-        if(this.currentTime >= 5.0) {
-            this.currentTime = 0.0;
-        }
-    });
-    </script>
+  
     <!-- Projects Section -->
     <div class="skills" id="skills">
       <h1>My Skills</h1>
