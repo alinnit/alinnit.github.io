@@ -410,6 +410,7 @@
   margin: 10px;
   height: auto;
   width: 100%;
+  max-width: 425px;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
