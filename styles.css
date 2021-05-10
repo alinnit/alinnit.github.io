@@ -538,7 +538,6 @@
   width: 300px;
   border-radius: 4px;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   color: #fff;
@@ -570,14 +569,6 @@ background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, F
   text-align: center;
   margin-top: 24px;
   font-size: 20px;
-}
-
-.icons__left {
-  flex: 50%;
-}
-
-.icons__right {
-  flex: 50%;
 }
 
 .skills__btn {
