@@ -571,6 +571,14 @@ background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, F
   font-size: 20px;
 }
 
+.icons__left {
+  flex: 50%;
+}
+
+.icons__right {
+  flex: 50%;
+}
+
 .skills__btn {
   display: flex;
   justify-content: center;
