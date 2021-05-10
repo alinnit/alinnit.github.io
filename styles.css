@@ -578,12 +578,12 @@ background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, F
 }
 
 .icons__left {
-  justify-content: center;
+  text-align: center;
   flex: 1;
 }
 
 .icons__right {
-  justify-content: center;
+  text-align: center;
   flex: 1;
 }
 
